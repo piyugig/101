@@ -1,0 +1,23 @@
+{
+  "name": "101",
+  "version": "1.0.0",
+  "description": "101",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyugig/101.git"
+  },
+  "author": "Piyush Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyugig/101/issues"
+  },
+  "homepage": "https://github.com/piyugig/101#readme"
+}

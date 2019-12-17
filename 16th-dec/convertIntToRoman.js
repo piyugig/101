@@ -24,5 +24,4 @@ function convertIntToRoman(num) {
     
       return str;
 }
-
-console.log(convertIntToRoman(43));
+module.exports = convertIntToRoman;
