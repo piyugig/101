@@ -13,7 +13,6 @@ function arrayAddition(firstInput) {
         });
         return secondInput;
     }
-
 }
 
 function sanatize(integerArray) {
@@ -27,7 +26,6 @@ function sanatize(integerArray) {
             throw Error();
         }
     });
-
 }
 
 module.exports = arrayAddition;
