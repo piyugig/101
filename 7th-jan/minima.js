@@ -3,12 +3,16 @@ function minima(firstK, input) {
   result = [];
   input.map(value => {
     setTimeout(() => {
-      result.push(value);
+      if (result.length == firstK) {
+        return result;
+      } else {
+        result.push(value);
+      }
     }, value);
   });
-  process.nextTick(() => {
-    console.log(result);
-  });
+  //   process.nextTick(() => {
+  //     console.log(result);
+  //   });
 }
 
 module.exports = minima;
@@ -17,4 +21,4 @@ module.exports = minima;
 //   console.log(process.hrtime());
 // });
 
-minima(2, [5, 3, 4, 6, 10, 1]);
+console.log(minima(2, [5, 3, 4, 6, 10, 1]));
