@@ -4,11 +4,11 @@ function simpleIterable() {
       let returnValue = 1;
       const iterator = {
         next() {
-          while(returnValue<=5) {
+          while (returnValue <= 5) {
             return {
               value: returnValue++,
               done: false
-            };  
+            };
           }
           return {
             value: undefined,
