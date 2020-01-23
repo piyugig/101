@@ -13,7 +13,7 @@ Utils = {
 }
 
 function cacheFunction(functionToCache) {
-
+  // TODO: Need improvement
   obj = Object.create(Utils);
   obj.cache = {};
   obj.fn = functionToCache;
